@@ -80,7 +80,7 @@ export default function VerifyClient() {
 
         <Button
           onClick={handleVerify}
-          disabled={loading || otp.length !== 5}
+          disabled={loading || otp.length !== 6}
           className="w-full mb-2"
         >
           {loading ? "Verifying..." : "Verify"}
