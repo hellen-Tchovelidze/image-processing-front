@@ -146,7 +146,7 @@ export const UserPostsGallery: React.FC<ImageGalleryProps> = ({
             className="glass overflow-hidden group hover:glow transition-all"
           >
             <CardContent className="p-4">
-              <h3 className="font-medium truncate mb-2">{post.title || "No title"}</h3>
+              <h3 className="font-medium truncate mb-2">{post.title || "Image Processing Service "}</h3>
               <p className="text-sm text-muted-foreground mb-2">
                 {post.createdAt ? new Date(post.createdAt).toLocaleString() : ""}
               </p>
